@@ -41,6 +41,7 @@ p {
 }
 
 a {
+  border-radius: .3em;
   background-color: #555;
   color: #fff;
 }
@@ -50,7 +51,6 @@ a {
   text-align: center;
   display: inline-block;
   padding: .5rem;
-  border-radius: .3em;
   text-decoration: none;
 }
 
@@ -69,6 +69,7 @@ a {
     width: 100%;
     flex-wrap: wrap;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -97,4 +98,5 @@ a {
     width: 50%;
     flex-wrap: wrap;
   }
+
 }
