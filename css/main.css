@@ -28,8 +28,7 @@ body {
 }
 
 .img-flex {
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: block;
   width: 100%;
 }
 
