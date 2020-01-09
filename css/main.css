@@ -110,13 +110,13 @@ a {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 110%;
-    line-height: 1.4;
+    font-size: 120%;
+    line-height: 1.5;
   }
 
   .img {
     display: block;
-    width: 50%;
+    max-width: 50em;
   }
 
   .img-flex {
@@ -134,13 +134,12 @@ a {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 120%;
-    line-height: 1.5;
+    font-size: 130%;
   }
 
   .img {
     display: block;
-    width: 50%;
+    max-width: 50em;
   }
 
   .wrapper {
@@ -152,4 +151,5 @@ a {
   section {
     padding: 0 8rem;
   }
+
 }
